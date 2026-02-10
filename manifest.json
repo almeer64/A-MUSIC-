@@ -1,0 +1,39 @@
+{
+  "name": "ALMEER MUSIC",
+  "short_name": "ALMEER",
+  "description": "Smart Online & Offline Music Platform",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#07071a",
+  "theme_color": "#07071a",
+  "categories": ["music", "entertainment"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='40' fill='%2307071a'/><text y='130' x='30' font-size='120'>🎵</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='100' fill='%2307071a'/><text y='360' x='60' font-size='340'>🎵</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Trending",
+      "url": "/?section=trending",
+      "description": "See trending tracks"
+    },
+    {
+      "name": "Downloads",
+      "url": "/?section=downloads",
+      "description": "Offline music"
+    }
+  ],
+  "screenshots": [],
+  "prefer_related_applications": false
+}
